@@ -1,0 +1,50 @@
+/*estilo pagina index*/
+.center{
+text-align:center ;
+        }
+       
+.container {
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content:center;
+    align-items: center;
+
+}
+
+#menu li{
+    display: inline;
+    padding: 30px;    
+}
+
+#menu li a{
+    text-decoration:none;
+    color:rgb(250, 249, 249);
+   font-size: 25px;
+
+}
+
+#menu li a:hover{
+color:rgb(237, 245, 4);
+
+}
+
+.tm-social{
+    width: 3px;
+    height:3px;
+}
+.fundo
+{
+    background-color: rgb(25, 25, 25);
+  }
+
+  .h1 {
+    color:#ffff00;
+  }
+  .texto{
+    color:ivory;
+
+  }
+  img {
+    border-radius:20%
+    
+  }
