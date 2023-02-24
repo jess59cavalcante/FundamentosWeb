@@ -5,44 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="fundo">
-    <img src="assets/img/TESTE.png" alt="cabeçalho">
-    <h1 class="center"style="color: rgb(243, 212, 10);">Participe você também!!!</h1>
-    <h2 class="center"style="color: rgb(243, 212, 10);">"Registre sua Experiência
-         Para que possamos juntos Melhorar a vivência do Próximo"</h2>
-    <link rel="stylesheet" href="assets/css/style.css">
 
-    <ul class="center" id= "menu">>
+    <img src="assets/img/bannerblog.png" alt="cabeçalho">
+    <h1 class="center" style="color: rgb(243, 212, 10);">Participe você também!!!</h1>
+    <h2 class="center" style="color: rgb(243, 212, 10);">"Registre sua Experiência Para que possamos juntos Melhorar a vivência do Próximo"</h2>
+    
+    <ul class="center" id="menu">
         <li><a href="index.html">Home</a></li>
-        <li> <a href="contato.html">Contato</a>
-        </li>
+        <li><a href="contato.html">Contato</a></li>
     </ul>
 
-<form >
-    <label for="Nome" style="color: rgb(243, 212, 10);">Nome:</label><br> 
-    <input type="text"id="Nome">
-<br>    
-<br>
-    <label for="Email" style="color: rgb(243, 212, 10);">Email:</label><br>
-    <input type="text"id="Email">
-<br>
-<br>
-    <label for="Assunto"style="color: rgb(243, 212, 10);">Assunto:</label><br>
-   
-    <textarea name="" id="" cols="60" rows="5"></textarea>
-<br>
-<br>
-<button>Enviar</button>
+    <div class="center container">
+        <div class="form-wrapper">
+            <form>
+                <label for="nome" style="color: rgb(243, 212, 10);">Nome:</label><br>
+                <input type="text" id="nome" name="nome" size="30" style="font-size: 18px;" onkeyup="validaNome()">
+                <div id="txtNome"></div><br>
 
-</form>
-<h2 style="color: rgb(243, 212, 10);">Endereço: Steve Jobs Way, Cupertino, CA 95014, Estados Unidos</h2>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.49245015022!2d-122.
-00965738469507!3d37.330848579842765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb59126
-4d2ce7%3A0xd577ee66f7ba534c!2sSteve%20Jobs%20Theater!5e0!3m2!1spt-BR!2sbr!4v1676566734808!5m2!1spt-BR!2sbr" 
-width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" 
-referrerpolicy="no-referrer-when-downgrade"></iframe>
-</body>
-</html>
+                <label for="email" style="color: rgb(243, 212, 10);">Email:</label><br>
+                <input type="email" id="email" name="email" size="30" style="font-size: 18px;"><br><br>
 
+                <label for="Assunto" style="color: rgb(243, 212, 10);">Assunto:</label><br>       
+                <textarea name="" id="" cols="60" rows="5"></textarea><br><br>
+
+                <button>Enviar</button>
+            </form>
+        </div>
+
+        <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.49245015022!2d-122.00965738469507!3d37.330848579842765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb591264d2ce7%3A0xd577ee66f7ba534c!2sSteve%20Jobs%20Theater!5e0!3m2!1spt-BR!2sbr!4v1676566734808!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <hr>
+        <p class="center" style="color: rgb(243,  212, 10);">"Orgulho de Pertencer a Esse Projeto"</p>
+        <div class="container center">
+          <a href="https://github.com/jess59cavalcante" target="_blank">
+            <img class="tm-social p-25" src="assets/img/logogithub.png" alt="github">
+          </a>
+          <a href="https://www.linkedin.com/in/jessicavalcante88/" target="_blank">
+            <img class="tm-social p-25" src="assets/img/logolinkedin.png" alt="linkedin">
+          </a>
+        </div>
+      </footer>
+      
